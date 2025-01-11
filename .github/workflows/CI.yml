@@ -34,4 +34,4 @@ jobs:
               run: python train.py
 
             - name: Run Tests
-              run: pytest
+              run: pytest -v 
